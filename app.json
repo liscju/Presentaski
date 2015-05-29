@@ -1,0 +1,7 @@
+{
+  "name": "Presentaski",
+  "description": "Application to create presentation",
+  "repository": "https://github.com/heroku/presentaski",
+  "logo": "http://presentaski.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "static"]
+}
