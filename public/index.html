@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html ng-app="myApp">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Presentaski</title>
+
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/custom_navbar.css">
+    <link rel="stylesheet" href="css/main.css">
+
+
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="core.js"></script>
+</head>
+<body ng-controller="MainPresentationController">
+    <nav class="navbar navbar-default" role="navigation">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Presentaski</a>
+        </div>
+    </nav>
+
+    <main>
+        <section class="working_panel">
+            <section class="drawing_section">
+                <code>Kartka</code>
+                <canvas id="drawing_area"></canvas>
+            </section>
+            <aside class="toolbox_section">
+                <code>Przybornik</code>
+            </aside>
+        </section>
+
+        <footer>
+            <code>Kartki</code>
+        </footer>
+    </main>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
